@@ -26,7 +26,7 @@ const App = () => {
             <Text>{fizzBuzz(count)}</Text>
             <View style={styles.buttonContainer}>
                 <Button
-                    title='+1'
+                    title={`+${STEP}`}
                     color='#193cff'
                     onPress={() => setCount(count + STEP)}
                 />
